@@ -1,9 +1,146 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>BrendanNelson - IS106 Midterm</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h2 {
+            padding: 20px 0px 15px 0px;
+        }
+
+        p {
+            margin: 10px 0px;
+        }
+
+        .main-header,
+        .main-footer {
+            height: 75px;
+            width: 100vw;
+            background-color: lightblue;
+        }
+
+        .logo-text {
+            display: block;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .main-container {
+            height: calc(100vh - 150px);
+            width: 90vw;
+            margin: 0px auto;
+        }
+
+        .top-section {
+            width: 100%;
+            background-color: #CCC;
+            height: 210px;
+            margin: 10px 0px;
+            overflow: hidden;
+        }
+
+        .top-inner-section {
+            overflow: auto;
+        }
+
+        .bottom-section {
+            width: 100%;
+            background-color: blueviolet;
+            height: 100%;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #CCC;
+            height: 100%;
+        }
+
+        .pic-container {
+            height: 100%;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .pic-container>img {
+            object-fit: cover;
+            display: block;
+            width: 190px;
+            margin: 10px;
+        }
+
+        .sidebar>ul {
+            list-style-type: none;
+        }
+
+        .sidebar>ul>li>a {
+            padding: 15px 20px;
+            display: block;
+            background-color: #CCC;
+            border: 1px solid #F1F1F1;
+        }
+
+        .footer-text {
+            text-align: center;
+            display: block;
+            padding: 20px;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- html comment -->
+    <header class="main-header">
+        <span class="logo-text">BrendanNelson - IS106 Midterm</span>
+    </header>
+    <section class="main-container">
+        <div class="top-section">
+            <div class="top-inner-section">
+                <div class="pic-container">
+                    <img src="./img/avatar.jpg" alt="my pic" class="bio-image">
+                </div>
+                <div class="bio-description">
+                    <h2>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eius qui omnis recusandae,
+                        fuga
+                        possimus vero quo obcaecati aperiam excepturi consequuntur, sint optio ratione neque. Maxime
+                        quos
+                        molestias, minus quis sunt quia corrupti recusandae sint et est beatae maiores quae
+                        necessitatibus
+                        assumenda! Laboriosam, omnis eum? Eum optio officia rem a?
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolorum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <aside class="sidebar">
+                <ul class="list">
+                    <li><a href="../IS106MidtermFiles/about.html">About</a></li>
+                    <li><a href="../IS106MidtermFiles/contact.html">Contact</a></li>
+                    <li><a href="../IS106MidtermFiles/login.html">Login</a></li>
+                    <li><a href="../IS106MidtermFiles/product.html">Product</a></li>
+                </ul>
+            </aside>
+            <div class="gallery">
+                <h2>Gallery</h2>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <span class="footer-text">Copyright (C) 2021. Created by Brendan Nelson. For educational purpose only! No orders
+            shall be fulfilled</span>
+    </footer>
 </body>
+
 </html>
